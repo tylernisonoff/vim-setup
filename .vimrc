@@ -151,3 +151,6 @@ au! Syntax scala source ~/.vim/bundle/vim-scala/syntax/scala.vim
 
 :iabbrev ssig -- <cr>Tyler Nisonoff<cr>tylernisonoff@gmail.com
 hi Normal ctermbg=NONE
+
+set rtp+=~/.vim/other/powerline/powerline/bindings/vim
+set laststatus=2
