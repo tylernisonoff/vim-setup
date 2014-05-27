@@ -81,7 +81,10 @@ set shiftround                  " aligns tabs
 set softtabstop=2               " Number of spaces that a <tab> counts for while editing.
 set tabstop=2                   " Number of spaces that a <tab> in the file counts for.
 set expandtab                   " Use the appropriate number of spaces to insert a <tab>.
-
+set tw=79                       " width of document
+set nowrap                      " Don't wrap on load
+set fo-=t                       " Don't automatically wrap text when typeing
+set colorcolumn=80
 " Set smaller tab settings for HTML type stuff.
 au FileType coffee,javascript,css,xml,xhtml,html,htmldjango,haml,json set shiftwidth=2 tabstop=2
 
